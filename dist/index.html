@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  <script type="module" crossorigin src="/assets/index.2cec3f60.js"></script>
+  <link rel="modulepreload" href="/assets/vendor.0b94f63b.js">
+  <link rel="stylesheet" href="/assets/index.6a1083e1.css">
+</head>
+  <body>
+    <canvas id="bg"></canvas>
+    <main>
+      <header>
+        <h1>Tomas Motiejūnas</h1>
+        <p>Beginner JavaScript Developer ✨</p>
+      </header>
+
+      <blockquote>
+        <p>I like to create web apps and problem solving is my passion</p>
+      </blockquote>
+
+      <section class="left">
+        <h2>About Me</h2>
+        Currently studying computer science at Vilnius Tech. Always loved to
+        make new stuff (participated in gamejam (2020). Started learning
+        front-end development 9 months ago and made a few projects. Looking for
+        an intership at a company.
+      </section>
+
+      <section>
+        <div id="skills">
+          <h2>Projects</h2>
+          <div>
+            <img
+              class="project-img"
+              src="/assets/searchByIngredient.2c87ca98.png"
+              alt="search by ingredient website"
+            />
+            <img
+              class="project-img"
+              src="/assets/zoomWeb.694ff412.png"
+              alt="zoom dispenser web"
+            />
+            <img
+              class="project-img"
+              src="/assets/tiuringWeb.7dccec42.png"
+              alt="tiuring website"
+            />
+          </div>
+          <h2>Skills</h2>
+          <ul>
+            <li>JavaScript, experience with ES6</li>
+            <li>Semantic HTML & CSS flex, grid a bit SCSS</li>
+            <li>PostgreSQL</li>
+            <li>Know fundamentals of React a bit of Redux</li>
+            <li>MVC, Flux design patterns</li>
+            <li>Have a desire and motivation to learn</li>
+          </ul>
+        </div>
+        <div class="hidden project-block" id="search-by-ingredient">
+          <button class="close">X</button>
+          <h2>Search By Ingredient</h2>
+          <br />
+          <p>
+            Pure Vanilla JavaScript website in which you can enter ingredient
+            and all recipes that are in mealDB will show up.
+          </p>
+          <p>
+            <strong>Tags:</strong>
+            <br />
+            MVC, JavaScript
+          </p>
+          <a
+            class="project-link"
+            href="https://github.com/tom-motiejunas/search-by-ingredient"
+            target="_blank"
+          ></a>
+        </div>
+        <div>
+          <div class="hidden project-block" id="zoom">
+            <button class="close">X</button>
+            <h2>Zoom link dispenser</h2>
+            <br />
+            <p>
+              The year is 2021, because of Covid-19 pandemic students have to
+              learn from home. So this website send query call to postgreSql
+              database, gets current lecture zoom link and also shows today's
+              timetable.
+            </p>
+            <p>
+              <strong>Tags:</strong>
+              <br />
+              Node.js, PostgreSQL, JavaScript
+            </p>
+            <a
+              class="project-link"
+              href="https://timetable-prifs5.herokuapp.com/"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+        <div class="hidden project-block" id="tiuring">
+          <button class="close">X</button>
+          <div>
+            <h2>Tiuring machine simulator</h2>
+            <br />
+            <p>
+              Simulates Tiuring machine. Send text file containing: 1. tape 2.
+              Head position 3. Instructions.
+            </p>
+            <p>
+              <strong>Tags:</strong>
+              <br />
+              JavaScript
+            </p>
+            <a
+              class="project-link"
+              href="https://sad-yalow-c9ed63.netlify.app/"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </section>
+      <blockquote class="left">
+        The most fundamental problem in software development is complexity.
+        There is only one basic way of dealing with complexity: divide and
+        conquer - Bjorne Stroustrup
+      </blockquote>
+
+      <section>
+        <h2>Contacts</h2>
+        <a id="github" href="https://github.com/tom-motiejunas" target="_blank">
+          <img src="/assets/github.cde91671.png" alt="github" />
+        </a>
+        <a
+          id="linkedin"
+          href="https://www.linkedin.com/in/tomas-motiej%C5%ABnas-5974861b9/"
+          target="_blank"
+        >
+          <img src="/assets/linkedin.f8b37866.png" alt="linkedin" />
+        </a>
+        <div id="email">
+          <span id="my-email" class="hidden">tom.motiejunas@gmail.com</span>
+          <img src="/assets/email.cc7d7956.png" alt="email" />
+        </div>
+      </section>
+    </main>
+    
+  </body>
+</html>
