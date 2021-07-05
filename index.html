@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio App</title>
+    <title>Tomas Motiejūnas | Front-end developer</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/749bb08008.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <canvas id="bg"></canvas>
@@ -23,10 +27,12 @@
 
       <section class="left">
         <h2>About Me</h2>
-        Currently studying computer science at Vilnius Tech. Always loved to
-        make new stuff (participated in gamejam (2020). Started learning
-        front-end development 9 months ago and made a few projects. Looking for
-        an intership at a company.
+        <p>
+          Currently studying computer science at Vilnius Tech. Always loved to
+          make new stuff (participated in LT game jam 2020). Started learning
+          front-end development 9 months ago and made a few projects. Looking
+          for an intership at a company.
+        </p>
       </section>
 
       <section>
@@ -48,6 +54,11 @@
               src="./imgs/tiuringWeb.png"
               alt="tiuring website"
             />
+            <img
+              class="project-img"
+              src="./imgs/diyshopper.png"
+              alt="DIY shop website"
+            />
           </div>
           <h2>Skills</h2>
           <ul>
@@ -60,29 +71,39 @@
           </ul>
         </div>
         <div class="hidden project-block" id="search-by-ingredient">
-          <button class="close">X</button>
-          <h2>Search By Ingredient</h2>
-          <br />
+          <div class="container">
+            <i class="fas fa-times close"></i>
+            <h3>Search By Ingredient</h3>
+            <a
+              class="project-link"
+              href="https://github.com/tom-motiejunas/search-by-ingredient"
+              target="_blank"
+            >
+              <i class="fas fa-external-link-alt"> </i>
+            </a>
+          </div>
           <p>
             Pure Vanilla JavaScript website in which you can enter ingredient
             and all recipes that are in mealDB will show up.
           </p>
           <p>
             <strong>Tags:</strong>
-            <br />
             MVC, JavaScript
           </p>
-          <a
-            class="project-link"
-            href="https://github.com/tom-motiejunas/search-by-ingredient"
-            target="_blank"
-          ></a>
         </div>
         <div>
           <div class="hidden project-block" id="zoom">
-            <button class="close">X</button>
-            <h2>Zoom link dispenser</h2>
-            <br />
+            <div class="container">
+              <i class="fas fa-times close"></i>
+              <h3>Zoom link dispenser</h3>
+              <a
+                class="project-link"
+                href="https://timetable-prifs5.herokuapp.com/"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"> </i>
+              </a>
+            </div>
             <p>
               The year is 2021, because of Covid-19 pandemic students have to
               learn from home. So this website send query call to postgreSql
@@ -91,35 +112,51 @@
             </p>
             <p>
               <strong>Tags:</strong>
-              <br />
               Node.js, PostgreSQL, JavaScript
             </p>
-            <a
-              class="project-link"
-              href="https://timetable-prifs5.herokuapp.com/"
-              target="_blank"
-            ></a>
           </div>
         </div>
         <div class="hidden project-block" id="tiuring">
-          <button class="close">X</button>
+          <div class="container">
+            <i class="fas fa-times close"></i>
+            <h3>Tiuring machine simulator</h3>
+            <a
+              class="project-link"
+              href="https://sad-yalow-c9ed63.netlify.app/"
+              target="_blank"
+            >
+              <i class="fas fa-external-link-alt"> </i>
+            </a>
+          </div>
           <div>
-            <h2>Tiuring machine simulator</h2>
-            <br />
             <p>
               Simulates Tiuring machine. Send text file containing: 1. tape 2.
               Head position 3. Instructions.
             </p>
             <p>
               <strong>Tags:</strong>
-              <br />
               JavaScript
             </p>
+          </div>
+        </div>
+        <div class="hidden project-block" id="diyshopper">
+          <div class="container">
+            <i class="fas fa-times close"></i>
+            <h3>DIY Shopper</h3>
             <a
               class="project-link"
-              href="https://sad-yalow-c9ed63.netlify.app/"
+              href="https://diyshopper.netlify.app"
               target="_blank"
-            ></a>
+            >
+              <i class="fas fa-external-link-alt"> </i>
+            </a>
+          </div>
+          <div>
+            <p>DIY shop page. Made with CSS flex and grid</p>
+            <p>
+              <strong>Tags:</strong>
+              HTML5, CSS3
+            </p>
           </div>
         </div>
       </section>

@@ -118,7 +118,6 @@ const skillsBlock = document.getElementById("skills");
 const closeBtn = document.querySelectorAll(".close");
 
 projectPhotos.forEach((el, i) => {
-  console.log(i);
   el.addEventListener("click", () => {
     projectBlock[i].classList.remove("hidden");
     skillsBlock.classList.add("hidden");
